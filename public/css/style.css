@@ -1,9 +1,13 @@
+@font-face {
+    font-family: "arlon" ;
+    src: url(../fonts/FontsFree-Net-Arlon-Bold.ttf);
+}
+
 .portfolio-m {
     display: flex;
     position: relative;
     margin: 10%;
     padding: 10%;
-    border: 2px solid black;
     justify-content: center;
     height: 20vw;
 
