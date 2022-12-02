@@ -110,3 +110,14 @@
     margin-top: 20%;
 
 }
+
+.pricing-box1-icon-m {
+    position: absolute;
+    display: flex;
+    padding-top: 105%;
+    justify-content: center;
+    color: red;
+    height: 200px;
+    width: 200px;
+    
+}
