@@ -82,3 +82,15 @@
     font-family: "arlon";
 
 }
+
+.pricing-box1-m {
+    display: flex;
+    position: relative;
+    margin: 10%;
+    padding: 10%;
+    justify-content: center;
+    height: 25vw;
+    border: 2px solid #dee2e6;
+    padding-top: 3%;
+
+}
