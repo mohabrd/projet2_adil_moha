@@ -89,10 +89,20 @@ nav ul li {
 
 /* texte section 1 */
 
+.sec2-a {
+    margin-bottom: 200px;
+}
+
 .aboutme {
     color: #695aa6;
     font-family: "arlon";
     font-size: 25px;
+}
+
+.aboutme2 {
+    color: #695aa6;
+    font-family: "arlon";
+    font-size: 20px;
 }
 
 p {
@@ -110,4 +120,21 @@ p {
 .service {
     text-align: center;
     margin-top: 200px;
+}
+
+/* Service */
+
+.img-a {
+    border: 1px black solid;
+    padding: 60px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.service-img-a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
 }
