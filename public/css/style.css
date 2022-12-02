@@ -18,3 +18,14 @@
 
 
 }
+
+.portfolio-m p {
+    position: absolute;
+    display: flex;
+    color: blue;
+    text-align: center;
+    top: 20%;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
