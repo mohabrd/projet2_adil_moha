@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Police */
+
+@font-face {
+    font-family: "arlon" ;
+    src: url(../fonts/FontsFree-Net-Arlon-Bold.ttf);
+}
+
+
+/* NavBar */
+
+header {
+
+    background-image: url(../images/header.png);
+    width: 100%;
+    height: 900px;
+}
+
+h2 {
+    margin-right: 600px;
+    color: white;
+    font-family: "arlon";
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    justify-content: space-around;
+}
+
+nav ul li {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "arlon";
+}
+
+.presentation-a {
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 400px;
+}
+
