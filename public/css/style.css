@@ -300,3 +300,16 @@ body {
     background-color: #695aa6;
 
 }
+
+.hireme p {
+    position: absolute;
+    display: flex;
+    color: #f8f9fa;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: "arlon";
+    margin-left: 20%;
+    margin-top: 3%;
+
+}
