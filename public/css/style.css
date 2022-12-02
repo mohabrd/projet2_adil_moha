@@ -30,3 +30,11 @@
 
 }
 
+.portfolio-img-m {
+    position: absolute;
+    display: flex;
+    height: 250px;
+    width: 250px;
+    padding-top: 10%;
+    margin-right: 50%;
+}
