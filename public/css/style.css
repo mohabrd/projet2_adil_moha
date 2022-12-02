@@ -8,3 +8,13 @@
     height: 20vw;
 
 }
+
+.portfolio-m span {
+    position: absolute;
+    display: flex;
+    color: black;
+    text-align: center;
+    top: 20%;
+
+
+}
