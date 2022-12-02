@@ -26,11 +26,12 @@
 .portfolio-m p {
     position: absolute;
     display: flex;
-    color: blue;
+    color: #695aa6;
     text-align: center;
     top: 20%;
     font-weight: bolder;
     font-size: xx-large;
+    font-family: "arlon";
 
 }
 
@@ -73,7 +74,7 @@
 .pricing-m p {
     position: absolute;
     display: flex;
-    color: blue;
+    color: #695aa6;
     text-align: center;
     top: 20%;
     font-weight: bolder;
