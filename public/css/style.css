@@ -192,4 +192,28 @@ p {
     display: flex;
 }
 
+#btn-area {
+    color: #7d6fb7;
+    background-color: white;
+    border-radius: -10px;
+    justify-content: center;
+}
 
+.btn-area {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#hr-footer {
+    width: 80%;
+
+}
+
+#copyright {
+    font-family: "arlon";
+    color: gray;
+    font-weight: lighter;
+    margin-left: 140px;
+    font-size: 14px;
+}
