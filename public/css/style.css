@@ -141,3 +141,19 @@
     font-size: xx-large;
 
 }
+
+.pricing-box1-m button {
+    position: absolute;
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin-top: 155%;
+    border-radius: 0;
+    border: none;
+    color: white;
+    background-color: #695aa6;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
