@@ -68,3 +68,41 @@ nav ul li {
     border-radius: 10px;
     color: white;
 }
+
+/* Section 1 */
+
+.container1-a {
+    column-count: 2;
+}
+
+.sec1-a {
+    margin-top: 200px;
+}
+
+#img-man {
+    margin-left: 250px;
+}
+
+.column2 {
+    margin-right: 150px;
+}
+
+/* texte section 1 */
+
+#aboutme {
+    color: #695aa6;
+    font-family: "arlon";
+    font-size: 25px;
+}
+
+p {
+    font-family: "arlon";
+    color: gray;
+    font-weight: lighter;
+}
+
+#btn-cv {
+    color: #7d6fb7;
+    background-color: white;
+    border-radius: 15px;
+}
