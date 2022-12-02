@@ -89,7 +89,7 @@ nav ul li {
 
 /* texte section 1 */
 
-#aboutme {
+.aboutme {
     color: #695aa6;
     font-family: "arlon";
     font-size: 25px;
@@ -105,4 +105,8 @@ p {
     color: #7d6fb7;
     background-color: white;
     border-radius: 15px;
+}
+
+.service {
+    text-align: center;
 }
