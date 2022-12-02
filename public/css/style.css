@@ -1,9 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
 @font-face {
     font-family: "arlon" ;
     src: url(../fonts/FontsFree-Net-Arlon-Bold.ttf);
 }
 
-.portfolio-m {
+/* DOUBLON */
+
+/* .portfolio-m {
     display: flex;
     position: relative;
     margin: 10%;
@@ -49,7 +57,7 @@
     justify-content: center;
     align-items: center;
 
-}
+} */
 
 .pricing-m {
     display: flex;
@@ -58,6 +66,8 @@
     padding: 10%;
     justify-content: center;
     height: 20vw;
+    margin-bottom: 15%;
+    margin-top: 0;
 
 }
 
@@ -195,8 +205,6 @@
     color: red;
     height: 200px;
     width: 200px;
-    
-    
 }
 
 
@@ -280,4 +288,15 @@
     padding-bottom: 3%;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.hireme {
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 10%;
+    margin-bottom: 20%;
+    background-color: #695aa6;
+
 }
