@@ -9,8 +9,9 @@ body {
     src: url(../fonts/FontsFree-Net-Arlon-Bold.ttf);
 }
 
-/* DOUBLON */
+/* SECTION 3 */
 
+/* DOUBLON */
 /* .portfolio-m {
     display: flex;
     position: relative;
@@ -58,6 +59,8 @@ body {
     align-items: center;
 
 } */
+
+/* SECTION 4 */
 
 .pricing-m {
     display: flex;
@@ -290,6 +293,8 @@ body {
     padding-right: 3%;
 }
 
+/* SECTION 5 */
+
 .hireme {
     display: flex;
     position: relative;
@@ -329,8 +334,8 @@ body {
     justify-content: center;
     color: black;
     background-color: #f8f9fa;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
     padding-left: 1%;
     padding-right: 1%;
     border: none;
