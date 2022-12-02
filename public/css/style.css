@@ -301,7 +301,6 @@ body {
     margin: auto;
     padding: auto;
     padding-bottom: 10%;
-    margin-bottom: 20%;
     background-color: #695aa6;
 
 }
@@ -345,5 +344,96 @@ body {
     font-weight: bolder;
     font-size: large;
     font-family: "arlon";
+
+}
+
+/* SECTION 6 */
+
+.testmonial {
+    display: flex;
+    position: relative;
+    margin: 10%;
+    padding: 10%;
+    justify-content: center;
+    height: 20vw;
+    margin-bottom: 15%;
+    margin-top: 0;
+
+
+}
+
+.testmonial span {
+    position: absolute;
+    display: flex;
+    color: black;
+    text-align: center;
+    top: 20%;
+
+
+}
+
+.testmonial p {
+    position: absolute;
+    display: flex;
+    color: #695aa6;
+    text-align: center;
+    top: 20%;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: "arlon";
+
+}
+
+.testmonial-box1 {
+    display: flex;
+    position: relative;
+    margin: 10%;
+    padding: 10%;
+    justify-content: center;
+    height: 25vw;
+    padding-top: 10%;
+    margin-top: 1%;
+    padding-left: 0;
+    padding-right: 0;   
+
+}
+
+
+.testmonial-box1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testmonial-box1 p {
+    margin-top: 75%;
+    color: black;
+
+}
+
+.testmonial-box2 {
+    display: flex;
+    position: relative;
+    margin: 10%;
+    padding: 10%;
+    justify-content: center;
+    height: 25vw;
+    padding-top: 10%;
+    margin-top: 1%;
+    padding-left: 0;
+    padding-right: 0;    
+
+}
+
+
+.testmonial-box2 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testmonial-box2 p {
+    margin-top: 75%;
+    color: black;
 
 }
