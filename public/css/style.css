@@ -131,3 +131,13 @@
     width: 200px;
 
 }
+
+.pricing-box1-m h1 {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    padding-top: 120%;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
