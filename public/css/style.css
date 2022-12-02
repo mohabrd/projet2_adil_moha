@@ -217,13 +217,15 @@ p {
 
 #copyright {
     font-family: "arlon";
-    color: gray;
+    color: rgb(228, 228, 228);
     font-weight: lighter;
     margin-left: 140px;
     font-size: 14px;  
 }
 
 /* Rectangle In */
+/* Animation sur le service  */ 
+
 .hvr-rectangle-in {
     display: inline-block;
     vertical-align: middle;
@@ -237,6 +239,7 @@ p {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
+
 .hvr-rectangle-in:before {
     content: "";
     position: absolute;
