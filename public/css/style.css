@@ -121,3 +121,13 @@
     width: 200px;
     
 }
+.pricing-box1-icon2-m {
+    position: absolute;
+    display: flex;
+    padding-top: 115%;
+    justify-content: center;
+    color: red;
+    height: 200px;
+    width: 200px;
+
+}
