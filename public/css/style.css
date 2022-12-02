@@ -196,6 +196,7 @@
     height: 200px;
     width: 200px;
     
+    
 }
 
 
@@ -210,6 +211,62 @@
 }
 
 .pricing-box2-m button {
+    position: absolute;
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin-top: 155%;
+    border-radius: 0;
+    border: none;
+    color: white;
+    background-color: #695aa6;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.pricing-box3-m {
+    display: flex;
+    position: relative;
+    margin: 10%;
+    padding: 10%;
+    justify-content: center;
+    height: 25vw;
+    border: 2px solid #dee2e6;
+    padding-top: 3%;
+
+}
+
+.pricing-box3-m img {
+    height: 75px;
+    width: 75px;
+
+}
+
+.pricing-box3-m p {
+    margin-top: 1%;
+
+}
+
+.pricing-box3-m span {
+    margin-top: 20%;
+
+}
+
+
+.pricing-box3-m h1 {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    padding-top: 122%;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+.pricing-box3-m button {
     position: absolute;
     display: flex;
     color: black;
