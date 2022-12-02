@@ -313,3 +313,12 @@ body {
     margin-top: 3%;
 
 }
+
+.hireme span {
+    position: absolute;
+    display: flex;
+    color: #f8f9fa;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 5%;
+}
