@@ -144,3 +144,55 @@ p {
 .portfolio {
     text-align: center;
 }
+
+.container2 {
+    column-count: 3;
+    column-gap: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */ 
+
+.aboutme3 {
+    color: #695aa6;
+    font-family: "arlon";
+    font-size: 20px;
+}
+
+.contactme {
+
+        text-align: center;
+        margin-top: 200px;
+
+}
+
+.div-footer ul {
+
+    display: flex;
+    list-style: none;;
+    justify-content: space-around;
+}
+
+.div-footer li {
+
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "arlon";
+}
+
+#h2-footer {
+    color: #695aa6;
+}
+
+.div-textarea {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+textarea {
+    justify-content: center;
+    text-align: center;
+}
