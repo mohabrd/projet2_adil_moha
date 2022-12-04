@@ -9,6 +9,154 @@ body {
     src: url(../fonts/FontsFree-Net-Arlon-Bold.ttf);
 }
 
+
+/* NavBar */
+
+header {
+
+    background-position : 10% 30%;
+    background-image: url(../images/header.jpg);
+        height: 70vh;
+        width: 100%;
+        background-position: 10% 30%;
+        object-fit: cover;
+        background-size: 100%;
+        padding-bottom: 300px;
+}
+
+h2 {
+    margin-right: 600px;
+    color: white;
+    font-family: "arlon";
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+nav ul li {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "arlon";
+}
+
+.presentation-a {
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 300px;
+}
+
+/* Présentation du Mr */
+
+#hi {
+    color: #595a60;
+}
+
+#iam {
+    color: #41454e;
+    font-size: 50px;
+}
+
+#p-pre {
+    color: #3c3c3e;
+    letter-spacing: 3px;
+}
+
+#btn-pre {
+    background-color: #695aa6;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Section 1 */
+
+.container1-a {
+    column-count: 2;
+}
+
+.sec1-a {
+    margin-top: 200px;
+}
+
+#img-man {
+    margin-left: 250px;
+}
+
+.column2 {
+    margin-right: 150px;
+}
+
+/* texte section 1 */
+
+.sec2-a {
+    margin-bottom: 200px;
+}
+
+.aboutme {
+    color: #695aa6;
+    font-family: "arlon";
+    font-size: 25px;
+}
+
+.aboutme2 {
+    color: #695aa6;
+    font-family: "arlon";
+    font-size: 20px;
+}
+
+p {
+    font-family: "arlon";
+    color: gray;
+    font-weight: lighter;
+}
+
+#btn-cv {
+    color: #7d6fb7;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.service {
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* Service */
+
+.img-a {
+    border: 1px black solid;
+    padding: 60px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.service-img-a {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+/* Portfolio */ 
+
+.portfolio {
+    text-align: center;
+}
+
+.container2 {
+    column-count: 3;
+    column-gap: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
 /* SECTION 3 */
 
 /* DOUBLON */
@@ -358,8 +506,11 @@ body {
     height: 20vw;
     margin-bottom: 15%;
     margin-top: 0;
-
-
+    padding-bottom: 75%;
+    margin-top: -15%;
+    margin-bottom: 0;
+    padding-bottom: 10%;
+    margin-top: -1%;
 }
 
 .testmonial span {
@@ -391,10 +542,10 @@ body {
     padding: 10%;
     justify-content: center;
     height: 25vw;
-    padding-top: 10%;
-    margin-top: 1%;
+    padding-top: 1%;
+    margin-top: -5%;
     padding-left: 0;
-    padding-right: 0;   
+    padding-right: 35%; 
 
 }
 
@@ -405,10 +556,41 @@ body {
     border-radius: 50%;
 }
 
-.testmonial-box1 p {
-    margin-top: 75%;
+.testmonial-box1 span {
+    display: flex;
+    position: absolute;
     color: black;
+    margin: 0;
+    padding: -500;
+    font-weight: none;
+    transform: rotate(90deg); 
+    
+}
 
+.testmonial-box1 p {
+    position: absolute;
+    color: #695aa6;
+    transform: rotate(90deg);
+    font-size: medium;
+    top: 25px;
+    left: -15px;
+}
+
+.testmonial-box1 fieldset {
+    display: flex;
+    position: relative;
+    width: 100px; 
+    height: 600px;
+    transform: rotate(-90deg); 
+    
+}
+
+.testmonial-box1 legend {
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: 0 10px;
+    transform: rotate(90deg); 
 }
 
 .testmonial-box2 {
@@ -418,8 +600,8 @@ body {
     padding: 10%;
     justify-content: center;
     height: 25vw;
-    padding-top: 10%;
-    margin-top: 1%;
+    padding-top: 1%;
+    margin-top: -5%;
     padding-left: 0;
     padding-right: 0;    
 
@@ -432,8 +614,152 @@ body {
     border-radius: 50%;
 }
 
-.testmonial-box2 p {
-    margin-top: 75%;
+.testmonial-box2 span {
+    display: flex;
+    position: absolute;
     color: black;
+    margin: 0;
+    padding: -500;
+    font-weight: none;
+    transform: rotate(90deg); 
+    
+}
+
+.testmonial-box2 p {
+    position: absolute;
+    color: #695aa6;
+    transform: rotate(90deg);
+    font-size: medium;
+    top: 25px;
+    left: -15px;
+}
+
+.testmonial-box2 fieldset {
+    display: flex;
+    position: relative;
+    width: 100px; 
+    height: 600px;
+    transform: rotate(-90deg); 
+    
+}
+
+.testmonial-box2 legend {
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: 0 10px;
+    transform: rotate(90deg); 
+}
+
+
+/* Footer */ 
+
+.aboutme3 {
+    color: #695aa6;
+    font-family: "arlon";
+    font-size: 20px;
+}
+
+.contactme {
+
+        text-align: center;
+        margin-top: 200px;
 
 }
+
+.div-footer ul {
+
+    display: flex;
+    list-style: none;;
+    justify-content: space-around;
+}
+
+.div-footer li {
+
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "arlon";
+}
+
+#h2-footer {
+    color: #695aa6;
+}
+
+.div-textarea {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#btn-area {
+    color: #7d6fb7;
+    background-color: white;
+    border-radius: -10px;
+    justify-content: center;
+}
+
+.btn-area {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#hr-footer {
+    width: 80%;
+
+}
+
+#copyright {
+    font-family: "arlon";
+    color: rgb(228, 228, 228);
+    font-weight: lighter;
+    margin-left: 140px;
+    font-size: 14px;  
+}
+
+/* Rectangle In */
+/* Animation sur le service  */ 
+/* Pas fini */
+
+.hvr-rectangle-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: #2098D1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-rectangle-in:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e1e1e1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
+    color: white;
+}
+.hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+/* Fin CSS ADIL */
